@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="prism.css">
+        <script src="prism.js"></script>
+        <link rel="stylesheet" href="style.css">
+    <title>Git Cheat Sheet</title>
+</head>
+
+<body>
+    <nav>
+        <span class="logo"><img src="copy.png" alt=""></span>
+        <div class="content center">
+            Git Cheat Sheet
+        </div>
+    </nav>
+    <div class="container">
+        <ol>
+            <div class="colour"><li><b><h1>Git:</h1></b></div> What is Git?
+                <pre class="language-html"><code>Git is a DevOps tool used for source code management.
+Git is used to tracking changes in the source code, enabling multiple developers
+to work together on non-linear development. </code></pre>
+            </li> 
+            <li><div class="colour"><h2><b>Exclude file:</b></h2></div> This will Exclude that file
+                <pre class="language-js"><code>touch .gitignore </code></pre>
+            </li> 
+            <li><div class="colour"><h2><b>Initilize Git:</b></h2></div> To Initilize git in a folder
+                <pre class="language-js"><code>git init </code></pre>
+            </li> 
+            <li><div class="colour"><h2><b>Add Files to Git:</b></h2></div> This will add all files and folders in git observation
+                <pre class="language-js"><code>git add . </code></pre>
+            </li> 
+            <li><div class="colour"><b><h2>Add Files to Git:</b></h2></div> This will add only named files and folders in git observation
+                <pre class="language-js"><code>git add name </code></pre>
+            </li> 
+            <li><div class="colour"><b><h2>To Comment:</b></h2></div> This will add comment along with the files
+                <pre class="language-js"><code>git commit -m "Your Commit" </code></pre>
+            </li> 
+            <li><div class="colour"><b><h2>Status:</b></h2></div> To see the status of your project
+                <pre class="language-js"><code>git status </code></pre>
+            </li> 
+            <li><div class="colour"><b><h2>Host Your project:</b> </h2></div>This will hos your project to github just arrange url space in github and copy ssh key
+                <pre class="language-js"><code>git remote add origin (ssh url) </code></pre>
+            </li> 
+            <li><div class="colour"><b><h2>Push Update:</b></h2></div> To Push the changes you made in your project
+                <pre class="language-js"><code>git push origin master </code></pre>
+            </li> 
+            
+            <li><div class="colour"><b><h2>Compare:</b></h2></div> to see the changes that has made / it compare stagging area to working directory
+                <pre class="language-js"><code>git diff </code></pre>
+            </li> 
+            <li><div class="colour"><b><h2>Remove git:</b></h2></div> to remove or uninstall git tracking
+                <pre class="language-js"><code>-rm rf --a </code></pre>
+            </li> 
+            <li><div class="colour"><b><h2>Git clone:</b></h2></div> to clone any repositories
+                <pre class="language-js"><code>git clone "url" </code></pre>
+            </li> 
+            <li><div class="colour"><b><h2>Compare All:</b></h2></div> compare all the commit or changes while diff only show one version before
+                <pre class="language-js"><code>git diff --stage; </code></pre>
+            </li> 
+            <li><div class="colour"><b><h2>Comment :</b></h2></div> to commit direct without stagging area
+                <pre class="language-js"><code>git commit -a -m  "Direct commit" </code></pre>
+            </li> 
+            <li><div class="colour"><b><h2>Remove from git:</b></h2></div> to remove or delete files from git observation
+                <pre class="language-js"><code>git rm name.txt </code></pre>
+            </li> 
+            <li>
+                <div class="colour"><b><h2>Rename:</b></h2></div>to Rename files and folders
+                <pre class="language-js"><code>git mv name.txt rename.txt</code></pre>
+            </li>
+        </ol>
+    </div>
+</body>
+<footer class="foot">
+    <!-- <span class="logo"><img src="logo.jpg -->
+        <!-- " alt="error"></span> -->
+    This Cheatsheat is made by <a href="https://github.com/Legacy-Coding">Abhinav Kumar</a>
+</footer>
+
+</html>
